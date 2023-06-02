@@ -1,0 +1,366 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+    color: rgb(247, 247, 247);
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    background-color: darkslategray;
+}
+
+main{
+    display: block;
+    background-color: white;
+}
+
+.container{
+    height: 285px;
+    width: 750px;
+    border-radius: 8px;
+    background-color: #cec1a6;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.texto.conteudo1{
+    width: 750px;
+    text-align: center;
+}
+
+.BackGround2{
+    border-radius: 8px;
+    align-self: center;
+    background-color: #a79c86;
+    height: 240px;
+}
+
+section.module p{
+    margin-bottom: 20px;
+}
+
+section.module:last-child{
+    margin-bottom: 0;
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module.content{
+    flex: content;
+    display: flex;
+    padding: 40px 30px;
+    background: #031d15;
+}
+
+section.module.content1{
+    flex: content;
+    display: flex;
+    background: #000805;
+}
+
+section.module.content2{
+    flex: content;
+    display: flex;
+    padding: 40px 30px;
+    background: #031d15;
+}
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh !important;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #031d15 100%);
+    background: -webkit-linear-gradient(to bottom), rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #031d15 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #031d15 100%);
+}
+
+section.module.parallax-1{
+    background-image: url("image/mato.jpg");
+}
+
+.imagem.logo{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 350px;
+    top: 0px;
+}
+
+.logo.imagem1{
+    position: absolute;
+}
+
+.background{
+    border-radius: 100%;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 350px;
+    top: 10px;
+    background-color: #31aa4579;
+}
+
+h7{
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 5px 4px black;
+}
+
+h8{
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.traco{
+    position: absolute;
+    left: -5px;
+    top: 0px;
+    height: 160px;
+    width: 10px;
+    background-color: #186b26;
+}
+
+.traco1{
+    position: absolute;
+    left: -5px;
+    top: 0px;
+    height: 420px;
+    width: 10px;
+    background-color: #186b26;
+}
+
+
+.conteudo.texto{
+    position: relative;
+    left: 30px;
+    top: 50px;
+    padding: 10px;
+    align-self: left;
+    height: 400px;
+    width: 650px;
+    background-color: #00000096;
+    backdrop-filter: blur(3px);
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.conteudo.texto1{
+    position: relative;
+    left: 30px;
+    padding: 10px;
+    height: 270px;
+    width: 95%;
+    background-color: #0f692a;
+    backdrop-filter: blur(3px);
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.conteudo.texto2{
+    position: relative;
+    left: 30px;
+    padding: 10px;
+    align-self: left;
+    height: 90px;
+    width: 450px;
+    background-color: #00000096;
+    backdrop-filter: blur(3px);
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.foto.casa{
+    height: 500px;
+    width: 700px;
+    border-radius: 10%;
+    margin-left: 100px;
+}
+
+.titulo.empresa{
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    padding: 10px;
+    align-self: center;
+    height: 140px;
+    width: 450px;
+    background-color: #00000096;
+    backdrop-filter: blur(3px);
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+.titulo.empresa1{
+    align-self: center;
+    text-shadow: 2px 5px 4px black;
+}
+
+section.module.parallax-2{
+    background-image: url("image/mato.jpg");
+}
+
+section.module.parallax-3{
+    background-image: url("image/mato.jpg");
+}
+
+section.module.parallax h1{
+    color: white;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+.containero {
+    width: 95%;
+    height: 10%;
+    margin: 0 auto;
+}
+
+.conteudo.containero {
+    align-self: center;
+}
+
+header {
+    background: #063f2c;
+    width: 100%;
+    height: 70px;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+
+    position: relative;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #186b26;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #ffffff;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+img {
+    width: 45px;
+    height: 45px;
+}
+
+.easter.egg{
+    position: relative;
+    left: 1600px;
+    top: -30px;
+    flex-direction: column-reverse;
+    color: #063d1777;
+}
+
+.container1{
+    height: 190px;
+    width: 100%;
+    background-color: #1c2220;
+    padding: 0 20px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+p{
+    color: white;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.logo1{
+    width: 90px;
+    height: 90px;
+    top: 45px;
+    position: absolute;
+    left: 440px;
+}
+
+.logo2{
+    width: 90px;
+    height: 90px;
+    top: 170px;
+    position: absolute;
+    left: 500px;
+}
+
+.textofinal {
+    text-align: center;
+}
